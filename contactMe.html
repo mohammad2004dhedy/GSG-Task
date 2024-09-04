@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <!-- a contact me form to take user message and direct him to the admin email -->
+    <form action="mailto:mhmddhedy1234@gmail.com" method="post">
+      <br /><br />
+      <h2>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Feel free to tell me anything
+      </h2>
+      <br /><br />
+      <div>
+        <label for="name">your name :</label><br />
+        <input
+          type="text"
+          id="name"
+          name="visitorName"
+        /><!--an input to take user name-->
+      </div>
+      <br />
+      <div>
+        <label for="email">your email Address :</label>
+        <br />
+        <input
+          type="email"
+          id="email"
+          name="visitorEmail"
+        /><!--an input to take user email-->
+      </div>
+      <br />
+      <div>
+        <label for="userMessage">enter your message here :</label>
+        <br />
+        <textarea
+          name="userMessage"
+          id="userMessage"
+          rows="12"
+          cols="80"
+        ></textarea>
+        <!--an input to take user message-->
+      </div>
+      <input type="submit" value="send message" />
+      <!--an input to submit data collected-->
+    </form>
+  </body>
+</html>
